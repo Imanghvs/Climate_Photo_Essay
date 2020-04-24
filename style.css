@@ -10,11 +10,13 @@ body {
   font-family: WYekan, tahoma, sans-serif ;
   background: #f5f5f5;
   padding: 5%;
+  justify-content: center;
 }
 
 p, figcaption {
-    text-align: center;
+    text-align: right;
 }
+
 
 .main-text::first-line{
   font-weight: bold;
@@ -25,14 +27,15 @@ p, figcaption {
   border: ridge black;
   border-radius: 8px;
   padding: 2em;
-  max-width= 1140px;
-  margin-right= 5px;;
-  margin-left= 5px;
+  max-width: 1140px;
+  margin-right: 5px;;
+  margin-left: 5px;
   display: grid;
   grid-auto-flow: row-dense;
   grid-template-columns: repeat(auto-fill, 100px);
-  grid-te:s: repeat(auto-fill, 100px);
+  grid-template-rows: repeat(auto-fill, 100px);
   grid-gap: 1em;
+  justify-content: center;
 }
 
 .grid-item-1 {
@@ -73,8 +76,8 @@ p, figcaption {
 
 .grid-item-7 p {
   margin: 10px;
-  margin-top:40px;
-  text-align: center;
+  margin-top: 40px;
+  text-align: right;
   font-weight: bold;
 }
 
